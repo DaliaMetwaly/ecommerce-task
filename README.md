@@ -18,7 +18,7 @@ All espresso machines:
 
 All small pods:
 
-    bhttps://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&productType=small%20coffee%20pod
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&productType=small%20coffee%20pod
 
 All pods sold in 7 dozen packs:
     
