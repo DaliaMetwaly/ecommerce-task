@@ -1,0 +1,75 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Ecommerce APP",
+        "version": "0.0.0",
+        "title": "API",
+        "license": {
+            "name": "SWENSON HE"
+        }
+    },
+    "basePath": "/",
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "paths": {
+        "/api/v1/coffee/get-coffee-stuff": {
+            "get": {
+                "tags": [
+                    "getCoffeeStuff"
+                ],
+                "summary": "getCoffeeStuff",
+                "description": "getCoffeeStuff",
+                "responses": {},
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "stuffType",
+                        "type": "string",
+                        "default":"machine",
+                        "enum":["machine","pod"]
+                    },
+                    {
+                        "in": "query",
+                        "name": "productType",
+                        "type": "string",
+                        "default":"small machine",
+                        "enum": [ "small machine", "large machine", "espresso machine","small coffee pod","large coffee pod","espresso pod"]
+                    },
+                    {
+                        "in": "query",
+                        "name": "waterLineCompatible",
+                        "type": "boolean"
+                    },
+                    {
+                        "in": "query",
+                        "name": "flavor",
+                        "default":"vanilla",
+                        "type": "string",
+                        "enum":["vanilla","caramel","psl","mocha","hazelnut"]
+                    },
+                    {
+                        "in": "query",
+                        "name": "packSize",
+                        "default":"1 dozen",
+                        "type": "string",
+                        "enum":["1 dozen","3 dozen","5 dozen","7 dozen"]
+                    }
+
+            ]
+            }
+        }
+
+    },
+
+
+
+
+
+
+
+
+    "definitions": {
+    }
+}
