@@ -1,12 +1,26 @@
-# VP5 Sync Hub
+# Ecommerce HUB
 
-
-- Install and run rabbitmq-server from https://www.rabbitmq.com/download.html and run:
-
-    rabbitmq-server
-
-
-In mac you can use:
+All large machines:
 
     brew services start rabbitmq
-    brew services stop rabbitmq
+
+All large pods:
+
+    brew services start rabbitmq
+
+All espresso vanilla pods:
+
+    brew services start rabbitmq
+
+All espresso machines:
+
+    brew services start rabbitmq
+
+All small pods:
+
+    brew services start rabbitmq
+
+All pods sold in 7 dozen packs:
+    
+    brew services start rabbitmq
+    
