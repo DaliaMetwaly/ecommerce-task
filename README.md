@@ -2,25 +2,25 @@
 
 All large machines:
 
-    brew services start rabbitmq
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=machine&productType=large%20machine
 
 All large pods:
 
-    brew services start rabbitmq
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&productType=large%20coffee%20pod
 
 All espresso vanilla pods:
 
-    brew services start rabbitmq
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&productType=espresso%20pod&flavor=vanilla
 
 All espresso machines:
 
-    brew services start rabbitmq
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=machine&productType=espresso%20machine
 
 All small pods:
 
-    brew services start rabbitmq
+    bhttps://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&productType=small%20coffee%20pod
 
 All pods sold in 7 dozen packs:
     
-    brew services start rabbitmq
+    https://coffee-machines.herokuapp.com/api/v1/coffee/get-coffee-stuff?stuffType=pod&packSize=7%20dozen
     
