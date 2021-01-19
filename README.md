@@ -1,4 +1,4 @@
-# Ecommerce HUB
+# Coffe Machine App
 
 All large machines:
 
