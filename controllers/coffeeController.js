@@ -1,7 +1,6 @@
 /* eslint-disable radix */
 /* eslint-disable consistent-return */
 /* eslint-disable no-console */
-const mongoose = require('mongoose');
 const coffeeStuffModel = require('../models/coffeeStuffModel');
 
 exports.getCoffeeStuff = async (req, res, next) => {
